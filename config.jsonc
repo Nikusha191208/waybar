@@ -1,0 +1,49 @@
+{
+    "height": 30,
+    "spacing": 12,
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "hyprland/language",
+        "privacy",
+        "battery",
+        "network"
+   ],
+
+    "clock": {
+        "tooltip-format": "{:%D\t%A}"
+    },
+
+    "hyprland/workspaces": {
+        "all-outputs": true
+    },
+
+    "privacy": {
+	"modules": [
+            {
+                "type": "audio-in",
+                "tooltip": true,
+                "tooltip-icon-size": 24
+            }
+	    ]
+    },
+
+    "hyprland/language": {
+        "format": "{shortDescription}"
+    },
+
+    "network": {
+        "format-wifi": "",
+        "tooltip-format-wifi": "{essid}"
+    },
+
+    "battery": {
+        "format": "{icon}",
+        "format-icons": ["", "", "", "", ""],
+        "tooltip-format": "{capacity}%"
+    }
+}

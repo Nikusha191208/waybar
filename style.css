@@ -1,0 +1,37 @@
+* {
+    font-size: 16px;
+}
+
+window#waybar {
+    background-color: black;
+    color: white;
+}
+
+.modules-right {
+    margin-right: 12px;
+}
+
+/* work spaces */
+#workspaces button {
+    border-radius: 0;
+    color: rgba(200, 200, 200, 0.9);
+}
+
+#workspaces button:hover {
+    color: black;
+}
+
+#workspaces button.active {
+    background-color: rgba(255, 255, 255, 1.0);
+    color: black;
+}
+
+/* privacy */
+#privacy-item {
+    color: red;
+}
+
+/* network */
+#network.disconnected {
+    color: red;
+}
